@@ -1,0 +1,14 @@
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\bin\Debug\netstandard2.0\СurrencyСonverter.deps.json
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\bin\Debug\netstandard2.0\СurrencyСonverter.dll
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\bin\Debug\netstandard2.0\ref\СurrencyСonverter.dll
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\bin\Debug\netstandard2.0\СurrencyСonverter.pdb
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.csprojAssemblyReference.cache
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.AssemblyInfoInputs.cache
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.AssemblyInfo.cs
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.csproj.CoreCompileInputs.cache
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.dll
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\ref\СurrencyСonverter.dll
+C:\Users\Mikki\source\repos\СurrencyСonverter\СurrencyСonverter\СurrencyСonverter\obj\Debug\netstandard2.0\СurrencyСonverter.pdb
