@@ -33,7 +33,7 @@ namespace CurConv
         public string Date { get { return _date; } set { _date = value; OnPropertyChanged(); SetCurCommand.Execute(_date); } }
         private ObservableCollection<Cur> _curNames;
         public ObservableCollection<Cur> curNames { get { return _curNames; } set { _curNames = value; OnPropertyChanged(); } }
-        private Cur _selectedCur1; 
+        private Cur _selectedCur1;
         public Cur selectedCur1
         {
             get { return _selectedCur1; }
@@ -82,7 +82,7 @@ namespace CurConv
                 }
                 else
                     Flag = true;
-                
+
                 OnPropertyChanged(nameof(curRes1));
             }
         }
@@ -100,7 +100,7 @@ namespace CurConv
                 }
                 else
                     Flag = true;
-                
+
                 OnPropertyChanged(nameof(curRes2));
             }
         }
@@ -122,15 +122,15 @@ namespace CurConv
             var d = new DateTime(int.Parse(arrDate[2]), int.Parse(arrDate[0]), int.Parse(arrDate[1]));
             var uri = "https://www.cbr-xml-daily.ru/archive/" + arrDate[2] + "/" + arrDate[0] + "/" + arrDate[1] + "/daily_json.js";
             var res = await http.GetAsync(uri);
-            
+
             if (res.IsSuccessStatusCode)
             {
                 string content = await res.Content.ReadAsStringAsync();
-                
+
                 JObject jObject = JObject.Parse(content);
                 result = jObject.ToObject<Root>();
                 setCurNameSelector();
-                
+
                 //List<Valute> list = jArray["Valute"]["AUD"].ToObject<List<Valute>>();
                 //var result = await System.Text.Json.JsonSerializer.DeserializeAsync<DailyCur>(content);
                 MessageStatus = "Курс на " + d.ToString("dd MMMM yyyy");
@@ -158,7 +158,18 @@ namespace CurConv
 
         public void setCurNameSelector()
         {
+            Cur sc1 = null;
+            Cur sc2 = null;
+            if (selectedCur1 != null && selectedCur2 != null)
+            {
+                sc1 = selectedCur1;
+                sc2 = selectedCur2;
+            }
             curNames.Clear();
+            result.Valute.RUB = new Cur();
+            result.Valute.RUB.CharCode="RUB";
+            result.Valute.RUB.Value = 1;
+            curNames.Add(result.Valute.RUB);
             curNames.Add(result.Valute.AUD);
             curNames.Add(result.Valute.AZN);
             curNames.Add(result.Valute.GBP);
@@ -194,7 +205,22 @@ namespace CurConv
             curNames.Add(result.Valute.ZAR);
             curNames.Add(result.Valute.KRW);
             curNames.Add(result.Valute.JPY);
-    }
+            if (sc1 != null && sc2 != null)
+            {
+                foreach (Cur c in curNames)
+                {
+                    if (c.CharCode == sc1.CharCode)
+                    {
+                        selectedCur1 = c;
+                    }
+                    if (c.CharCode == sc2.CharCode)
+                    {
+                        selectedCur2 = c;
+                    }
+                }
+            }
+            
+        }
 
         public class Root
         {
@@ -206,6 +232,7 @@ namespace CurConv
         }
         public class Valute
         {
+            public Cur RUB { get; set; }
             public Cur AUD { get; set; }
             public Cur AZN { get; set; }
             public Cur GBP { get; set; }

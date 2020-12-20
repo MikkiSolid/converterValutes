@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qa20h+6mV4jyJo/dzrg3uolyZOxy7TNqeOB6xejMxKyQwdx9FQWpmK3PnPPy9kw4upHn4XjG/4fv+W2exL1w/g==",
+  "dgSpecHash": "YmP1MkXvV393JMZFtzFW8fgdK1tMApq/DPxJhR//d/IVOIry17iJZzG1TcfUcu02QVjutx0FVublS0faP5g7cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
+  "projectFilePath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikki\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.7\\com.airbnb.xamarin.forms.lottie.4.0.7.nupkg.sha512",
     "C:\\Users\\Mikki\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",

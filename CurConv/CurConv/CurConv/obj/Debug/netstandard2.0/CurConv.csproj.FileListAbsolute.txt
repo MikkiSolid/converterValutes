@@ -12,3 +12,17 @@ C:\Users\Mikki\source\repos\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\Cur
 C:\Users\Mikki\source\repos\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.csprojAssemblyReference.cache
 C:\Users\Mikki\source\repos\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.csproj.CoreCompileInputs.cache
 C:\Users\Mikki\source\repos\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\bin\Debug\netstandard2.0\CurConv.deps.json
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\bin\Debug\netstandard2.0\CurConv.dll
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\bin\Debug\netstandard2.0\ref\CurConv.dll
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\bin\Debug\netstandard2.0\CurConv.pdb
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.csprojAssemblyReference.cache
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.AssemblyInfoInputs.cache
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.AssemblyInfo.cs
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.csproj.CoreCompileInputs.cache
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.dll
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\ref\CurConv.dll
+C:\Users\Mikki\source\repos\converterValutes\CurConv\CurConv\CurConv\obj\Debug\netstandard2.0\CurConv.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj": {}
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj": {
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj",
         "projectName": "CurConv.Android",
-        "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj",
+        "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.Android\\CurConv.Android.csproj",
         "packagesPath": "C:\\Users\\Mikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.Android\\obj\\",
+        "outputPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
-                "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj"
+              "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
+                "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
+        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
         "projectName": "CurConv",
-        "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
+        "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
         "packagesPath": "C:\\Users\\Mikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\obj\\",
+        "outputPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

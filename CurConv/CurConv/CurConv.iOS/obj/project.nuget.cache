@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lBCJ8r0LbS8L2DMSXkrIxG96+D0IH7pksq4r+8W6Ej4BDyW4vQoNRM/21KEgklOGNH996HkYxiTbn3aTzBHp5g==",
+  "dgSpecHash": "APO10nRe++3LklSpmIOvs9uCigIYGPdbwv1Tjdwy3WpVExkWNd/v8VFhUjy9nY2xYvnWySDvvpvLVsFGF2LGjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikki\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.12\\com.airbnb.ios.lottie.2.5.12.nupkg.sha512",
     "C:\\Users\\Mikki\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\4.0.7\\com.airbnb.xamarin.forms.lottie.4.0.7.nupkg.sha512",

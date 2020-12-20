@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj": {}
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj": {
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
         "projectName": "CurConv.iOS",
-        "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
+        "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\CurConv.iOS.csproj",
         "packagesPath": "C:\\Users\\Mikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv.iOS\\obj\\",
+        "outputPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
-                "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj"
+              "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
+                "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
+    "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
+        "projectUniqueName": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
         "projectName": "CurConv",
-        "projectPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
+        "projectPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\CurConv.csproj",
         "packagesPath": "C:\\Users\\Mikki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mikki\\source\\repos\\CurConv\\CurConv\\CurConv\\obj\\",
+        "outputPath": "C:\\Users\\Mikki\\source\\repos\\converterValutes\\CurConv\\CurConv\\CurConv\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
