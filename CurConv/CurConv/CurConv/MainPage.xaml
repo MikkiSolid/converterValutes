@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             material:MaterialNavigationPage.AppBarColor="#2c3e50"
+             material:MaterialNavigationPage.AppBarTitleTextFontFamily="Roboto"
+             material:MaterialNavigationPage.AppBarTitleTextFontSize="14" 
+             material:MaterialNavigationPage.StatusBarColor="#1B3147"
+             material:MaterialNavigationPage.AppBarTitleTextAlignment="Start"
+             BackgroundColor="#D0EAFA"
+             x:Class="CurConv.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="25" CornerRadius="0">
+            <Label Text="Конвертер валют!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <material:MaterialCard HasShadow="True" Margin="10,5" CornerRadius="15">
+            <material:MaterialDatePicker Date="{Binding Date}" Format="dd/MM/yyyy" />
+        </material:MaterialCard>
+        <material:MaterialCard HasShadow="True">
+            <material:MaterialLabel Text="{Binding MessageStatus}" HorizontalTextAlignment="Center" TypeScale="Button"/>
+        </material:MaterialCard>
+
+        <material:MaterialCard CornerRadius="15" Elevation="4" 
+                               HeightRequest="80" 
+                               HorizontalOptions="Fill"
+                               Margin="10,5">
+            <StackLayout Orientation="Vertical">
+                <material:MaterialLabel Text="Выберите валюту" TypeScale="Body1"/>
+
+                
+                <StackLayout Orientation="Horizontal">
+                    <Picker WidthRequest="200" ItemsSource="{Binding curNames}" ItemDisplayBinding="{Binding CharCode}"
+                            SelectedItem="{Binding selectedCur1}"/>
+                    <Entry WidthRequest="150" Text="{Binding curRes1}" Keyboard="Numeric"/>
+                </StackLayout>
+
+            </StackLayout>
+        </material:MaterialCard>
+
+        <material:MaterialCard CornerRadius="15" Elevation="4" 
+                                   HeightRequest="80" 
+                                   HorizontalOptions="Fill"
+                                   Margin="10,5">
+            <StackLayout Orientation="Vertical">
+                <material:MaterialLabel Text="Выберите валюту" TypeScale="Body1"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Picker WidthRequest="200" ItemsSource="{Binding curNames}" ItemDisplayBinding="{Binding CharCode}"
+                            SelectedItem="{Binding selectedCur2}"/>
+                    <Entry WidthRequest="150" Text="{Binding curRes2}" Keyboard="Numeric" />
+                </StackLayout>
+
+            </StackLayout>
+        </material:MaterialCard>
+        
+    </StackLayout>
+
+</ContentPage>
